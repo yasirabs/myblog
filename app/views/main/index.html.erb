@@ -1,1 +1,137 @@
-<h1>Yasir Abbas</h1>
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top">
+        <i class="fa"></i> <span class="light"></span>
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#about">About</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contact">Contact</a>
+        </li>
+        <!-- <li>
+           <a class="page-scroll" href="#download2">Download SASS</a>
+         </li>
+         <li>
+           <a class="page-scroll" href="#contact2">Contact Blackfyre</a>
+         </li>-->
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+
+<!-- Intro Header -->
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1 class="brand-heading">Yasir Abbas</h1>
+          <p class="intro-text">The Developer.<br>The Gamer.</p>
+          <a href="#about" class="btn btn-circle page-scroll pulse">
+            <i class="fa fa-angle-double-down"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>About Me</h2>
+      <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<a href="http://startbootstrap.com/template-overviews/grayscale/">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</a>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit....</p>
+      <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... <a href="http://gratisography.com/">Gratisography</a> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... <a href="http://snazzymaps.com/">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</a>.</p>
+      <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit....</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>Contact</h2>
+      <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+      <p><a href="mailto:feedback@test.com">feedback@mailinator.com</a>
+      </p>
+      <ul class="list-inline banner-social-buttons">
+        <li>
+          <a href="https://twitter.com/test" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+        </li>
+        <li>
+          <a href="https://github.com/test/test" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+        </li>
+        <li>
+          <a href="https://plus.google.com/+test/test" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Download SASS Section -->
+<section id="download2" class="content-section text-center">
+  <div class="download-section">
+    <div class="container">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Wanna Contribute</h2>
+        <p>You can download the SASS version of Grayscale for free on the GITHUB page.</p>
+        <a href="https://github.com/test/test/" class="btn btn-default btn-lg">Visit the my Github Page</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<!--<section id="contact2" class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>Contact</h2>
+      <p>If you have problems with the <b>SASS version</b> of the original template, please report it at the</p>
+      <p><a href="https://github.com/blackfyre/grayscale-sass/issues">GITHUB Issues page</a>
+      </p>
+      <ul class="list-inline banner-social-buttons">
+        <li>
+          <a href="https://twitter.com/gnick666" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+        </li>
+        <li>
+          <a href="https://github.com/blackfyre" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>-->
+
+
+
+<!-- Map Section -->
+<div id="map"></div>
+
+<!-- Footer -->
+<footer>
+  <div class="container text-center">
+    <p>Copyright &copy; <%= link_to 'www.yasirzaidi.com' %> <%= DateTime.now.year %></p>
+
+  </div>
+</footer>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
